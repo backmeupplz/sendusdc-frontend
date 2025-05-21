@@ -1,5 +1,5 @@
 {
-  "name": "frontend-starter",
+  "name": "sendusdc-frontend",
   "version": "1.0.0",
   "license": "MIT",
   "type": "module",
@@ -11,13 +11,12 @@
     "preview": "yarn build && yarn vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.7",
-    "jotai": "^2.12.4",
     "preact": "^10.26.6"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.10.1",
     "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.1.7",
     "@types/eslint-config-prettier": "^6.11.3",
     "@types/node": "^22.15.21",
     "@vitejs/plugin-react": "^4.4.1",
