@@ -11,6 +11,7 @@
     "preview": "yarn build && yarn vite preview"
   },
   "dependencies": {
+    "@privy-io/react-auth": "^2.13.3",
     "preact": "^10.26.6"
   },
   "devDependencies": {

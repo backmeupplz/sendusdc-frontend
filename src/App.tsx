@@ -1,4 +1,16 @@
+import { useFundWallet } from '@privy-io/react-auth'
+import { useEffect } from 'preact/hooks'
+
 export default function SendUSDCInfo() {
+  const { fundWallet } = useFundWallet()
+  useEffect(() => {
+    const isEthereumAddress = (path: string) => {
+      return /^0x[a-fA-F0-9]{40}$/.test(path)
+    }
+    if (isEthereumAddress(window.location.pathname.substring(1))) {
+      void fundWallet(window.location.pathname.substring(1))
+    }
+  }, [fundWallet])
   return (
     <div className="hero min-h-screen bg-base-200 dark:bg-base-300">
       <div className="hero-content text-center">
