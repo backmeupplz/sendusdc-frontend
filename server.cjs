@@ -40,7 +40,7 @@ if (cluster.isPrimary) {
   )
   app.use(morgan('tiny'))
   const port = process.env.PORT || 5173
-  ViteExpress.config()
+
   ViteExpress.listen(
     app,
     port,
