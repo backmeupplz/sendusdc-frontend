@@ -7735,17 +7735,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"preact@npm:^10.24.2":
-  version: 10.26.7
-  resolution: "preact@npm:10.26.7"
-  checksum: 10c0/781db5c0171a85f31902506b1db66317254510db74070e0f24393e3f8e0bd3c7096c77da788effa39e10c063d7fdf281493e4a1ac9de287c136185943576bc2c
-  languageName: node
-  linkType: hard
-
-"preact@npm:^10.26.6":
-  version: 10.26.6
-  resolution: "preact@npm:10.26.6"
-  checksum: 10c0/af07817a24b76c48f0eb49895d2ab49d6e43097355b6f75271a4cab5c2886999968e9eab9331a48f0b7e3477bc16153b08cd1d6a24ebf1acea4016b7054daf29
+"preact@npm:^10.24.2, preact@npm:^10.26.6":
+  version: 10.29.8
+  resolution: "preact@npm:10.29.8"
+  peerDependencies:
+    preact-render-to-string: ">=5"
+  peerDependenciesMeta:
+    preact-render-to-string:
+      optional: true
+  checksum: 10c0/505460352139e0ce5b9c971b69d8d9f3b73ea0f316e3ff1c0b3db9a1abe206c9dff6ba385eb796253c38fcc08b5ade70cd8da3d9d6c9e9aec1a2fd59348253ae
   languageName: node
   linkType: hard
 
